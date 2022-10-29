@@ -7,11 +7,10 @@ h1 {
 
 
 }
-h2 {
-    color: blue;
-
-
+header{
+    background-color: lightblue;
 }
+
 h3 {
     color: greenyellow;
 
