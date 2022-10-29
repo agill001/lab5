@@ -1,0 +1,40 @@
+h1 {
+    color: blue;
+    
+
+    font-family: Montserrat, sans-serif;
+    
+
+
+}
+h2 {
+    color: blue;
+
+
+}
+h3 {
+    color: greenyellow;
+
+
+}
+p {
+    color: whitesmoke;
+
+
+}
+ul{
+    color: yellow;
+
+
+}
+body {
+    background: gray;
+}
+
+nav {
+    background: blue;
+}
+
+li{
+    color: whitesmoke;
+}
