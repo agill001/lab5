@@ -1,8 +1,7 @@
 .maint {
     color: blue;
     font-family: Montserrat, sans-serif;
-    background-color: lightblue;
-    text-align: center;
+   
 }
 
 header{
@@ -17,16 +16,23 @@ header{
     -ms-flex-align: center;
     list-style-type: none;
     margin: 0 650px; 
-    background-color: lightblue;
+    
+}
+
+.stored {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.storedtwo{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 
-
-
-p {
-    color: whitesmoke;
-
-}
 
 body {
     
