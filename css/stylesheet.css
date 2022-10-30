@@ -1,13 +1,14 @@
 .maint {
     color: blue;
-    font-family: Montserrat, sans-serif;
-   
+    font-family: Montserrat, sans-serif; 
 }
 
 header{
-    background-color: lightblue;
+    background-color: #a6cad4;
     text-align: center;
 }
+
+
 
 #navList {
     display: flex;
@@ -25,6 +26,10 @@ header{
     gap: 100px;
     flex-wrap: nowrap;
     flex-grow: 1;
+    flex-shrink: 1;
+    margin-left:auto;
+    margin-right:auto;
+    
 }
 
 .storedtwo{
@@ -32,22 +37,24 @@ header{
     grid-template-columns: repeat(1, 1fr);
 }
 
-
-
 body {
     
     display: grid;
     grid-area: span;
-    background: gray;
+    background-color: #edddd0;
 }
 
+.image {
 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 4vh 3vh 2vh;
+    grid-gap: 150px;
+} 
 
 #bottom {
     display: flex;
     justify-content: center; 
-    background-color: lightblue;
-  
+    background-color: #a6cad4;
     
-  
 }
