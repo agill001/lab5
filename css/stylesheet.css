@@ -1,39 +1,47 @@
-h1 {
+.maint {
     color: blue;
-    
-
     font-family: Montserrat, sans-serif;
-    
-
-
+    background-color: lightblue;
+    text-align: center;
 }
+
 header{
+    background-color: lightblue;
+    text-align: center;
+}
+
+#navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    list-style-type: none;
+    margin: 0 650px; 
     background-color: lightblue;
 }
 
-h3 {
-    color: greenyellow;
 
 
-}
+
 p {
     color: whitesmoke;
 
-
 }
-ul{
-    color: yellow;
 
-
-}
 body {
+    
+    display: grid;
+    grid-area: span;
     background: gray;
 }
 
-nav {
-    background: blue;
-}
 
-li{
-    color: whitesmoke;
+
+#bottom {
+    display: flex;
+    justify-content: center; 
+    background-color: lightblue;
+  
+    
+  
 }
