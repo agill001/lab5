@@ -95,7 +95,7 @@ footer h4 {
     grid-column: 3/6;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .container-classes {
         display: flex;
         flex-basis: 10em;
@@ -121,7 +121,7 @@ footer h4 {
     padding-right: 5px;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .navList{
         display: flex;
         flex-direction: column;
