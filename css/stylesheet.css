@@ -50,6 +50,8 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 4vh 3vh 2vh;
     grid-gap: 150px;
+    /* display: flex;
+    justify-content: end; */
 } 
 
 #bottom {
@@ -57,4 +59,37 @@ body {
     justify-content: center; 
     background-color: #a6cad4;
     
+}
+
+ /* .intro{
+    display: flex;
+    margin-left: 600px;
+} */
+
+
+
+/*  
+@media screen and (min-width: 800px) {
+
+    .intro{
+    display: flex;
+    margin-left: 600px;
+
+    }
+
+    
+    
+}  */
+
+@media (max-width: 600px) {
+    .container-courses {
+        display: flex;
+        flex-basis: 10em;
+        flex-direction: column;
+        min-width: 2vh;
+        flex: 1 1 1fr;
+    }
+    .container-courses p {
+        margin-top: 0;
+    }
 }
