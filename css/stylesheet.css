@@ -121,7 +121,7 @@ footer h4 {
     padding-right: 5px;
 }
 
-@media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
     .navList{
         display: flex;
         flex-direction: column;
@@ -132,6 +132,6 @@ footer h4 {
     .navList a {
         padding: 2px;
     }
-}
+} 
 
 
